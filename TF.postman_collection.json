@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "b96eb9c0-f704-4295-9399-cfe4e7e72ed0",
+		"name": "Trust_Fund",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_investors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://116.203.27.46:5003/get_investors",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5003",
+					"path": [
+						"get_investors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_investors",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Том",
+							"type": "text"
+						},
+						{
+							"key": "surname",
+							"value": "Hardy",
+							"type": "text"
+						},
+						{
+							"key": "investype",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "count_pies",
+							"value": "10",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "tommmmmmy@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "0xsfw44ete4fsd443456sgd76tfg76tsdfsdfr",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5003/add_investors",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5003",
+					"path": [
+						"add_investors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pie_price",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "balance",
+							"value": "30000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://116.203.27.46:5003/pie_price",
+					"protocol": "http",
+					"host": [
+						"116",
+						"203",
+						"27",
+						"46"
+					],
+					"port": "5003",
+					"path": [
+						"pie_price"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
