@@ -10,3 +10,6 @@
 
 Проект включает в себя:
 
+* main.py - реализация системы.
+* TF_requirements_and_user_story.txt - описание БД, требования и user-story системы.
+* TF.postman_collection.json - коллекция Postman с тестами API для реализованной системы.
