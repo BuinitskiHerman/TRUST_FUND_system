@@ -13,3 +13,4 @@
 * main.py - реализация системы.
 * TF_requirements_and_user_story.txt - описание БД, требования и user-story системы.
 * TF.postman_collection.json - коллекция Postman с тестами API для реализованной системы.
+* TF_testing.mp4 - видео тестирования реализованоой системы с помощью Postman, примеры запросов, ответов, изменений в БД.
